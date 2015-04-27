@@ -1,0 +1,96 @@
+    .entrypopup {
+      min-width: 400px;
+    }
+
+    .inp-itemdate {
+      width: 140px !important; 
+      display: inline; 
+      cursor: pointer !important;
+    }
+
+    .col-md-3 {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .today {
+      background-image: url(/img/todaybg.jpg);
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -khtml-border-radius: 5px;
+      border-radius: 5px;
+    }
+
+    .newitem {
+      font-size: 11px !important;
+      height: 28px !important;
+      padding-left: 8px !important;
+      padding-right: 6px !important;
+    }
+
+    .btncancel {
+      margin-right: 50px;
+    }
+
+    .select-importance-high {
+      margin-left: 10px !important;
+    }
+
+    .select-importance-normal {
+      margin-left: 10px !important;
+    }
+
+    .select-importance-low {
+      margin-left: 10px !important;
+    }
+
+    .connectedlist {
+      margin-top: 5px;
+      padding: 0px;
+      min-height: 50px;
+      max-height: 200px;
+      overflow: auto;
+    }
+
+    .connectedlist li {
+      list-style: none;
+      border: 1px solid #CCC;
+      background: #F6F6F6;
+      margin-top: 5px;
+      padding-top: 3px;
+      padding-right: 3px;
+      padding-bottom: 3px;
+      padding-left: 8px;
+      min-height: 24px;
+      word-wrap: break-word;
+      font-size: 11px;
+    }
+
+    .connectedlist li:hover {
+      cursor: pointer;
+    }
+
+    .connectedlist li.ui-sortable-helper {
+      cursor: move;
+    }
+
+    .highlighted {
+      background-color: #42adda !important;
+    }
+
+    .statusdone {
+      text-decoration: line-through;
+    }
+
+    .importance-normal {
+
+    }
+
+    .importance-high {
+      background-color: yellow !important;
+      font-weight: bold !important;
+    }
+
+    .importance-low {
+      color: #666 !important;      
+    }
