@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url'] = 'http://planner.partygoodiebag.com/';
+#$config['base_url'] = 'http://planner.partygoodiebag.com/';
+$config['base_url'] = 'http://test-tony-ad81hka0g.panda.org/';
 
 /*
 |--------------------------------------------------------------------------
